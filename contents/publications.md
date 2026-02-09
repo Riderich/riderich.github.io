@@ -1,12 +1,21 @@
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q.Niu . LaNCoR: Label Noise-Contrastive Robust Learning for Seismic Signal Processing with Application to Microseismic Arrival Time Picking. <strong>In Revision.</strong> [[Code]](https://github.com/senli1073/LaNCor)
+### Publications
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+- **A survey of LLM-based agents in medicine: How far are we from Baymax?**  
+  *ACL 2025 Findings* | *Co-second Author*  
+  Spearheaded the design of the paper's primary classification system (Taxonomy), categorizing medical agents by architectural complexity and clinical application. Screened and analyzed over 100 recent papers to identify core bottlenecks in clinical reasoning and multi-agent collaboration within the medical domain.
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- **AgeMindBench: Benchmarking LLMs for Age-Diverse Mental Health Support**  
+  *Under Review (ARR 2026)* | *Co-second Author* | *Collaboration with Renmin University AIM3 Lab*  
+  Acted as the group leader, coordinating with researchers from RUC and driving research milestones. Developed a manual evaluation platform with TypeScript to facilitate the collection and statistical analysis of expert assessment data. Designed a multi-agent system with LangChain to automate interaction simulation and assessment. Curated a benchmark of 1,249 seeker profiles across five life stages grounded in developmental psychology.
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
+### Research Experience
 
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
+- **CUHK Undergraduate Summer Research Internship** (June — Aug 2025)  
+  *Topic: Diversity Evaluation of LLMs via Schur Complement Entropy*  
+  Adapted Schur Complement Entropy (SCE) as a novel metric for semantic diversity, providing a more robust measure than traditional metrics for high-dimensional LLM outputs. Conducted evaluations on open-source LLMs, proving SCE's effectiveness in capturing "mode collapse". Developed an evaluation toolkit in Python, optimizing the calculation of kernel-based entropy for long-text generation.
 
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
+### Work Experience
 
+- **HOWDEN HUA ENGINEERING CO., LTD.** — *Algorithm Engineer Intern (DDA Division)*  
+  Beijing, China | June 2024 — Aug 2024  
+  Developed prediction models for industrial fans using gradient descent regression and random forest. Conducted on-site testing and model fine-tuning in actual manufacturing environments, improving the robustness of predictive maintenance algorithms.
