@@ -1,10 +1,8 @@
 ## About Me
 
-I am **Zheng Wang (王铮)**, a final-year undergraduate pursuing a **B.Eng. in Artificial Intelligence: Systems and Technologies** at **The Chinese University of Hong Kong**, with expected graduation in June 2027.
+I am **Zheng Wang (王铮)**, a final-year undergraduate student at **The Chinese University of Hong Kong (CUHK)**, pursuing a **B.Eng. in Artificial Intelligence: Systems and Technologies**. I expect to graduate in June 2027.
 
-My research interests center on reliable long-horizon LLM agents, reasoning and tool use, process-level evaluation, failure diagnosis, and self-correction. I am particularly interested in human-facing applications in healthcare and mental health.
-
-I co-lead AgeMindBench and contributed to a medical-agent survey published in Findings of ACL 2025. My experience includes multi-agent simulation pipelines, expert-evaluation interfaces, and a Python toolkit for semantic-diversity evaluation.
+My research interests are in language model agents, with a focus on reasoning, tool use, and process-level evaluation. I am particularly interested in understanding agent failures and improving reliability over long tasks. My recent work includes evaluating AI systems for healthcare and mental health.
 
 ### Profiles & Contact
 
