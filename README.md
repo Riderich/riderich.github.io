@@ -36,6 +36,15 @@ reflects verified undergraduate experience rather than the roles of these refere
 - Junxian He (HKUST): https://jxhe.github.io/
 - Danqi Chen (Princeton): https://www.cs.princeton.edu/~danqic/index.html
 
+## Search indexing
+
+- `sitemap.xml` lists the canonical homepage URL. Update its `lastmod` only when the
+  homepage content materially changes; add new canonical pages if the site expands.
+- `robots.txt` allows crawling and points search engines to the sitemap.
+- Google Search Console ownership verification and indexing requests are managed
+  separately in the owner's Google account. Keep any verification file or meta tag
+  in place after verification.
+
 ## Local preview
 
 Run `python3 -m http.server 8765 --bind 127.0.0.1` from this directory and open

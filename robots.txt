@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://riderich.github.io/sitemap.xml
