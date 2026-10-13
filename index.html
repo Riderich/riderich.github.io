@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://riderich.github.io/">
     <meta property="og:image" content="https://riderich.github.io/static/assets/img/zheng-wang.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="theme-color" content="#173d37">
+    <meta name="theme-color" content="#ffffff">
     <title>Zheng Wang — Academic Homepage</title>
     <link rel="canonical" href="https://riderich.github.io/">
     <link rel="icon" href="static/assets/favicon.ico">
@@ -34,168 +34,100 @@
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="site-name" href="#top">Zheng Wang <span lang="zh-Hans">王铮</span></a>
-            <nav aria-label="Primary navigation">
-                <a href="#about">About</a>
-                <a href="#publications">Research</a>
-                <a href="#experience">Experience</a>
-                <a href="#education">Education</a>
-            </nav>
-        </div>
-    </header>
-
-    <main id="main" class="container">
-        <section class="intro" id="top" aria-labelledby="intro-title">
-            <div class="intro-copy">
-                <p class="eyebrow">Undergraduate researcher · CUHK</p>
-                <h1 id="intro-title">Zheng Wang <span lang="zh-Hans">王铮</span></h1>
-                <p class="summary">Building and evaluating reliable language model agents.</p>
-                <p class="intro-detail">
-                    I am a final-year B.Eng. student in Artificial Intelligence:
-                    Systems and Technologies at The Chinese University of Hong Kong,
-                    expecting to graduate in June 2027.
+    <main id="main">
+        <header class="intro">
+            <div class="bio">
+                <h1>Zheng Wang <span lang="zh-Hans">王铮</span></h1>
+                <p>
+                    I am a final-year undergraduate at The Chinese University of Hong Kong,
+                    studying Artificial Intelligence: Systems and Technologies
+                    (B.Eng.; expected graduation June 2027).
                 </p>
-                <div class="profile-links" aria-label="Contact and academic profiles">
+                <p>
+                    I am interested in reliable LLM agents, reasoning and tool use,
+                    and process-level evaluation. My work focuses on understanding
+                    agent failures and evaluating human-facing AI, particularly
+                    in healthcare and mental health.
+                </p>
+                <p class="profile-links">
                     <a href="mailto:1155211037@link.cuhk.edu.hk">Email</a>
-                    <a href="https://orcid.org/0009-0006-4575-9928" rel="me">ORCID <span aria-hidden="true">↗</span></a>
-                    <a href="https://openreview.net/profile?id=~Zheng_WANG47" rel="me">OpenReview <span aria-hidden="true">↗</span></a>
-                    <a href="https://github.com/Riderich" rel="me">GitHub <span aria-hidden="true">↗</span></a>
-                    <a href="https://www.linkedin.com/in/zheng-wang-31b46a291" rel="me">LinkedIn <span aria-hidden="true">↗</span></a>
-                </div>
-            </div>
-            <figure class="profile-photo">
-                <img src="static/assets/img/zheng-wang.jpg" width="1800" height="1350"
-                     alt="Zheng Wang outdoors in front of a red sandstone castle" fetchpriority="high">
-                <figcaption>Zheng Wang · 王铮</figcaption>
-            </figure>
-        </section>
-
-        <section id="about" aria-labelledby="about-title">
-            <div class="section-heading"><p class="eyebrow">01 / About</p><h2 id="about-title">Research interests</h2></div>
-            <div class="section-content">
-                <p>
-                    I am interested in how agents reason, use tools, and recover from failures
-                    over long tasks. My work combines agent systems with process-level evaluation
-                    and human judgment, with particular interest in healthcare and mental health.
+                    <span aria-hidden="true"> / </span>
+                    <a href="https://orcid.org/0009-0006-4575-9928" rel="me">ORCID</a>
+                    <span aria-hidden="true"> / </span>
+                    <a href="https://openreview.net/profile?id=~Zheng_WANG47" rel="me">OpenReview</a>
+                    <span aria-hidden="true"> / </span>
+                    <a href="https://github.com/Riderich" rel="me">GitHub</a>
+                    <span aria-hidden="true"> / </span>
+                    <a href="https://www.linkedin.com/in/zheng-wang-31b46a291" rel="me">LinkedIn</a>
                 </p>
-                <p>
-                    I co-lead <a href="#agemindbench">AgeMindBench</a>, an interactive evaluation
-                    project for mental health support, and contributed to a
-                    <a href="#medical-survey">survey of LLM-based agents in medicine</a>
-                    published in Findings of ACL 2025. I have built multi-agent simulation
-                    pipelines, expert-evaluation interfaces, and a Python toolkit for
-                    measuring semantic diversity.
-                </p>
-                <ul class="interest-list">
-                    <li>Reliable long-horizon agents</li>
-                    <li>Reasoning &amp; tool use</li>
-                    <li>Process-level evaluation</li>
-                    <li>Failure diagnosis &amp; self-correction</li>
-                    <li>Human-facing AI</li>
-                </ul>
             </div>
-        </section>
+            <img class="portrait" src="static/assets/img/zheng-wang.jpg" width="1800" height="1350"
+                 alt="Zheng Wang" fetchpriority="high">
+        </header>
 
         <section id="publications" aria-labelledby="publications-title">
-            <div class="section-heading"><p class="eyebrow">02 / Research</p><h2 id="publications-title">Selected work</h2><p class="section-note">Published work and current manuscripts</p></div>
-            <div class="section-content">
-                <article class="publication" id="agemindbench">
-                    <p class="venue"><span class="status">Submitted</span> ACL Rolling Review · October 2026</p>
-                    <h3>AgeMindBench: Developmentally Grounded Seeker Simulation for Interactive Evaluation of Mental Health Support</h3>
-                    <p class="authors">
-                        Xinjie Zhang, <strong>Zheng Wang</strong>, Sibo Zhao, Ruichen Ma,
-                        Xin Wang, Shujie Ren, Wenxuan Wang, and Qin Jin
-                    </p>
-                    <p class="contribution">Co-first author · Project lead</p>
-                    <p>
-                        Interactive evaluation of mental health support using developmentally
-                        grounded simulated seekers across five life stages. My contributions
-                        include a profile-conditioned multi-agent pipeline, a TypeScript
-                        platform for expert evaluation, and work on 1,249 profiles,
-                        experiments, analysis, and writing.
-                    </p>
-                    <p class="paper-links"><a href="https://openreview.net/forum?id=y5VBDoJSV6">OpenReview <span aria-hidden="true">↗</span></a></p>
-                </article>
-
-                <article class="publication" id="medical-survey">
-                    <p class="venue"><span class="status published">Published</span> Findings of ACL 2025</p>
-                    <h3>A Survey of LLM-based Agents in Medicine: How far are we from Baymax?</h3>
-                    <p class="authors">
-                        Wenxuan Wang, Zizhan Ma, <strong>Zheng Wang</strong>, Chenghan Wu,
-                        Jiaming Ji, Wenting Chen, Xiang Li, and Yixuan Yuan
-                    </p>
-                    <p>
-                        A structured review of medical-agent architectures, clinical applications,
-                        evaluation practices, and open challenges.
-                    </p>
-                    <p class="paper-links">
-                        <a href="https://aclanthology.org/2025.findings-acl.539/">ACL Anthology <span aria-hidden="true">↗</span></a>
-                        <a href="https://aclanthology.org/2025.findings-acl.539.pdf">PDF <span aria-hidden="true">↗</span></a>
-                        <a href="https://doi.org/10.18653/v1/2025.findings-acl.539">DOI <span aria-hidden="true">↗</span></a>
-                    </p>
-                </article>
-            </div>
+            <h2 id="publications-title">Publications &amp; manuscripts</h2>
+            <article class="publication" id="agemindbench">
+                <h3><a href="https://openreview.net/forum?id=y5VBDoJSV6">AgeMindBench: Developmentally Grounded Seeker Simulation for Interactive Evaluation of Mental Health Support</a></h3>
+                <p class="authors">Xinjie Zhang, <strong>Zheng Wang</strong>, Sibo Zhao, Ruichen Ma, Xin Wang, Shujie Ren, Wenxuan Wang, and Qin Jin</p>
+                <p><em>Submitted to ACL Rolling Review, October 2026.</em> Co-first author; project lead.</p>
+                <p>An interactive benchmark for mental health support, with simulated seekers across five life stages and expert evaluation.</p>
+                <p class="paper-links"><a href="https://openreview.net/forum?id=y5VBDoJSV6">OpenReview</a></p>
+            </article>
+            <article class="publication" id="medical-survey">
+                <h3><a href="https://aclanthology.org/2025.findings-acl.539/">A Survey of LLM-based Agents in Medicine: How far are we from Baymax?</a></h3>
+                <p class="authors">Wenxuan Wang, Zizhan Ma, <strong>Zheng Wang</strong>, Chenghan Wu, Jiaming Ji, Wenting Chen, Xiang Li, and Yixuan Yuan</p>
+                <p><em>Findings of ACL 2025.</em></p>
+                <p>A review of medical-agent architectures, applications, evaluation, and open challenges.</p>
+                <p class="paper-links">
+                    <a href="https://aclanthology.org/2025.findings-acl.539/">Paper</a> /
+                    <a href="https://aclanthology.org/2025.findings-acl.539.pdf">PDF</a> /
+                    <a href="https://doi.org/10.18653/v1/2025.findings-acl.539">DOI</a>
+                </p>
+            </article>
         </section>
 
         <section id="experience" aria-labelledby="experience-title">
-            <div class="section-heading"><p class="eyebrow">03 / Experience</p><h2 id="experience-title">Research &amp; engineering</h2></div>
-            <div class="section-content">
-                <article class="entry">
-                    <p class="entry-date">Jun–Aug 2026</p>
-                    <h3>Agent R&amp;D Engineer Intern</h3>
-                    <p class="organization">Huawei Cloud Computing BU · Shenzhen, China</p>
-                    <p>
-                        Curated structured metadata for approximately 200 open-source skills
-                        for an AI asset platform and analyzed skill installation and distribution
-                        workflows. Designed candidate pipelines and a proof-of-concept
-                        evaluation framework for online speaker diarization.
-                    </p>
-                </article>
-                <article class="entry">
-                    <p class="entry-date">Summer 2025</p>
-                    <h3>Undergraduate Summer Researcher</h3>
-                    <p class="organization">The Chinese University of Hong Kong · Prof. Farzan Farnia</p>
-                    <p>
-                        Investigated LLM semantic diversity and mode collapse using
-                        Schur Complement Entropy, and implemented a Python evaluation toolkit.
-                    </p>
-                </article>
-                <article class="entry">
-                    <p class="entry-date">Jun–Aug 2024</p>
-                    <h3>Algorithm Engineer Intern</h3>
-                    <p class="organization">Howden Hua Engineering Co., Ltd. · Beijing, China</p>
-                    <p>
-                        Developed and validated predictive models for industrial fan performance
-                        in a manufacturing environment.
-                    </p>
-                </article>
-            </div>
+            <h2 id="experience-title">Experience</h2>
+            <ul class="experience-list">
+                <li>
+                    <div class="entry-heading"><strong>Huawei Cloud Computing BU</strong><span>Jun–Aug 2026</span></div>
+                    Agent R&amp;D Engineer Intern, Shenzhen. Worked on open-source skill
+                    metadata and distribution workflows, and an online speaker-diarization
+                    evaluation framework.
+                </li>
+                <li>
+                    <div class="entry-heading"><strong>The Chinese University of Hong Kong</strong><span>Summer 2025</span></div>
+                    Undergraduate summer research with Prof. Farzan Farnia.
+                    Studied LLM semantic diversity using Schur Complement Entropy
+                    and implemented a Python evaluation toolkit.
+                </li>
+                <li>
+                    <div class="entry-heading"><strong>Howden Hua Engineering Co., Ltd.</strong><span>Jun–Aug 2024</span></div>
+                    Algorithm Engineer Intern, Beijing.
+                    Developed and validated models for industrial fan performance.
+                </li>
+            </ul>
         </section>
 
         <section id="education" aria-labelledby="education-title">
-            <div class="section-heading"><p class="eyebrow">04 / Education</p><h2 id="education-title">Education &amp; honors</h2></div>
-            <div class="section-content">
-                <article class="entry">
-                    <p class="entry-date">2023–2027 · Expected graduation June 2027</p>
-                    <h3>B.Eng. in Artificial Intelligence: Systems and Technologies</h3>
-                    <p class="organization">The Chinese University of Hong Kong</p>
-                    <ul class="honors">
-                        <li>Dean’s List, 2023–2024</li>
-                        <li>Department / Programme Scholarship</li>
-                        <li>ELITE Stream Scholarship, 2023/24</li>
-                        <li>Undergraduate summer research funding, 2025</li>
-                    </ul>
-                </article>
-            </div>
+            <h2 id="education-title">Education</h2>
+            <p>
+                <strong>The Chinese University of Hong Kong</strong>, 2023–2027 (expected).<br>
+                B.Eng. in Artificial Intelligence: Systems and Technologies.
+            </p>
         </section>
+
+        <section id="honors" aria-labelledby="honors-title">
+            <h2 id="honors-title">Honors</h2>
+            <ul>
+                <li>Dean’s List, 2023–2024</li>
+                <li>Department / Programme Scholarship</li>
+                <li>ELITE Stream Scholarship, 2023/24</li>
+                <li>Undergraduate summer research funding, 2025</li>
+            </ul>
+        </section>
+        <footer>Last updated October 2026.</footer>
     </main>
-    <footer>
-        <div class="container footer-inner">
-            <p>© 2026 Zheng Wang · Updated October 2026</p>
-            <a href="mailto:1155211037@link.cuhk.edu.hk">Get in touch <span aria-hidden="true">↗</span></a>
-        </div>
-    </footer>
 </body>
 </html>

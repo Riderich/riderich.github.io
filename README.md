@@ -1,69 +1,32 @@
+# Zheng Wang's academic homepage
 
+Live site: https://riderich.github.io/
 
-![Github Forks](https://img.shields.io/github/forks/senli1073/senli1073.github.io?style=flat)
-![Github Stars](https://img.shields.io/github/stars/senli1073/senli1073.github.io?style=flat)
-![License](https://img.shields.io/github/license/senli1073/senli1073.github.io)
-![Last Commit](https://img.shields.io/github/last-commit/senli1073/senli1073.github.io)
+A buildless academic homepage hosted by GitHub Pages from the main branch.
 
-# A simple Github Pages template for personal academic websites.
+- `index.html`: the live page, profile links, publications, and experience.
+- `static/css/main.css`: responsive document-style layout.
+- `static/assets/img/zheng-wang.jpg`: existing profile photo.
+- `contents/`: parallel Markdown content records; the current HTML page does not load them.
 
-## Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/senli1073/senli1073.github.io/main/screenshot_full.png)](https://senli1073.github.io/)
+Keep public facts aligned with the application workspace's canonical applicant record.
+Distinguish published papers from submitted manuscripts.
 
+## Design references
 
-## Introduction
+The layout uses a short biography, a small photo, ordinary text links, and continuous
+publication entries, informed by these personal homepages:
 
-This personal academic website template is based on [bootstrap](https://github.com/StartBootstrap/startbootstrap-new-age).
+- Jon Barron: https://jonbarron.info/
+- Ross Girshick: https://www.rossgirshick.info/
+- Awni Hannun: https://awnihannun.com/
+- Andrej Karpathy: https://karpathy.ai/
 
-The template is designed to integrate Markdown files as content input.  There's no need to compile the webpage before deployment.  Upon loading, the Markdown files are automatically parsed and embedded into the page.
+The implementation is original HTML/CSS; no reference-site source code or assets are copied.
 
-This template supports LaTeX formula input. You can use `$...$` and `\(...\)` as delimiters for inline-math, or use `$$...$$` and `\[...\]` as delimiters for display-math. Macros such as `\ref{...}`, `\eqref{...}`, and `\begin{equation}...\end{equation}` are also supported. See [MathJax](https://docs.mathjax.org/en/latest/index.html) for more details.
+## Local preview
 
-:milky_way: Demo: https://senli1073.github.io/
+Run `python3 -m http.server 8765 --bind 127.0.0.1` from this directory and open
+http://127.0.0.1:8765/ . Commit and push reviewed changes to main to update GitHub Pages.
 
-
-## Getting Start
-### 1. Fork this repository
-The repository name should be `<username>.github.io`, which will also be your website's URL.
-
-
-### 2. Edit page content
-
-(1) Go to the folder where you want to store your project, and clone the new repository:
-```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-The directory structure is as follows:
-
-```.
-.
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
-```
-
-(2) Modify the content of each section, which corresponds to `contents/*.md`.
-
-(3) Adjust the title, copyright information, and other text of the website in `contents/config.yml`
-
-(4) Replace background image and photo with new ones for your web pages in `static/assets/img/`
-
-(5) Push it: 
-```
-git commit -am 'init'
-git push
-```
-
-
-### 3. Enjoy
-
-Fire up a browser and go to `https://<username>.github.io`
-
-
-
-## License
-
-Copyright Sen Li, 2023. Licensed under an MIT license. You can copy and mess with this template.
+The repository retains the original template's MIT license.
