@@ -1,37 +1,21 @@
-
-
-[![Riderich](https://img.shields.io/badge/Riderich-github-blue?logo=github)](https://github.com/Riderich)
-
 ## About Me
 
-Hello! I'm **Zheng Wang (王铮)**, a third-year undergraduate student pursuing a B.Eng. in **Artificial Intelligence: System and Technology** at **The Chinese University of Hong Kong**.
+I am **Zheng Wang (王铮)**, a final-year undergraduate pursuing a **B.Eng. in Artificial Intelligence: Systems and Technologies** at **The Chinese University of Hong Kong**, with expected graduation in June 2027.
 
-My research focuses on understanding and improving **Large Language Models (LLMs)**, particularly in the areas of **reasoning capabilities**, **trustworthy AI**, and **large-scale evaluation methodologies**. I'm passionate about bridging the gap between cutting-edge AI research and real-world applications, especially in domains that can benefit society such as healthcare and mental health support.
+My research interests center on reliable long-horizon LLM agents, reasoning and tool use, process-level evaluation, failure diagnosis, and self-correction. I am particularly interested in human-facing applications in healthcare and mental health.
 
-I have been fortunate to contribute to research published at **ACL 2025 Findings** and am currently leading a benchmark project under review at ARR. Through my undergraduate research journey, I've gained hands-on experience in multi-agent systems, LLM evaluation frameworks, and semantic diversity metrics.
+I co-lead AgeMindBench and contributed to a medical-agent survey published in Findings of ACL 2025. My experience includes multi-agent simulation pipelines, expert-evaluation interfaces, and a Python toolkit for semantic-diversity evaluation.
 
----
+### Profiles & Contact
+
+- [Email](mailto:1155211037@link.cuhk.edu.hk)
+- [ORCID: 0009-0006-4575-9928](https://orcid.org/0009-0006-4575-9928)
+- [OpenReview](https://openreview.net/profile?id=~Zheng_WANG47)
+- [GitHub](https://github.com/Riderich)
+- [LinkedIn](https://www.linkedin.com/in/zheng-wang-31b46a291)
 
 ### Education
 
-**B.Eng. in Artificial Intelligence: System and Technology**  
-The Chinese University of Hong Kong | Sept 2023 — June 2027 (Expected)  
-- **CGPA:** 3.42 / 4.0
-- **Honors:** ELITE Stream Scholarship (2023/24), Research Grant for Undergraduate Summer Research (2025)
+**B.Eng. in Artificial Intelligence: Systems and Technologies**
 
----
-
-### Research Interests
-
-- **LLM Reasoning & Evaluation**: Developing robust metrics and benchmarks for assessing language model capabilities
-- **Trustworthy AI**: Ensuring AI systems are reliable, fair, and safe for real-world deployment
-- **Multi-Agent Systems**: Designing collaborative AI frameworks for complex problem-solving
-- **AI for Social Good**: Applying AI to healthcare, mental health support, and other beneficial domains
-
----
-
-### Contact
-
-📧 **Email:** [1155211037@link.cuhk.edu.hk](mailto:1155211037@link.cuhk.edu.hk)  
-📱 **Phone:** (852) 5399 3814  
-📍 **Location:** Sha Tin, Hong Kong
+The Chinese University of Hong Kong | 2023–2027 (expected graduation June 2027)

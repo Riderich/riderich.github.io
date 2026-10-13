@@ -1,3 +1,4 @@
-- **ELITE Stream Scholarship**, The Chinese University of Hong Kong, 2023/24
-
-- **Research Grant of Undergraduate Summer Research**, The Chinese University of Hong Kong, 2025
+- **Dean's List 2023–2024**, The Chinese University of Hong Kong
+- **Department / Programme Scholarship**, The Chinese University of Hong Kong
+- **ELITE Stream Scholarship (2023/24)**, The Chinese University of Hong Kong
+- **Undergraduate summer research funding (2025)**, The Chinese University of Hong Kong
